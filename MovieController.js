@@ -4,6 +4,8 @@
  * @param req
  * @param res
  */
-export const getMovies = (req, res) => {
-  res.json(movies);
+const getMovies = (req, res) => {
+  res.json(null);
 };
+
+module.exports = { getMovies };
